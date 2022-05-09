@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Admin.PetPlaces.AddPlace">
+
+
+    <ScrollView
+        android:id="@+id/scroll_manage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_170sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView_1"
+                android:layout_width="135dp"
+                android:layout_height="35dp"
+
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="20dp"
+                android:text="Store type :"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/tv_store_type"
+                android:layout_width="224dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="store type"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView_2"
+                android:layout_width="135dp"
+                android:layout_height="35dp"
+
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="16dp"
+                android:text="Name:"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_1"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/editText_name"
+                android:layout_width="224dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="10dp"
+
+                android:background="@drawable/border"
+                android:hint="name"
+                android:inputType="text"
+                android:paddingLeft="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_store_type"
+                tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView_3"
+                android:layout_width="135dp"
+                android:layout_height="35dp"
+
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="24dp"
+                android:text="Description:"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_2"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/editText_description"
+                android:layout_width="224dp"
+                android:layout_height="@dimen/_100sdp"
+                android:hint="description"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/border"
+                android:inputType="textMultiLine"
+                android:gravity="top"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingLeft="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText_name"
+                tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView_4"
+                android:layout_width="135dp"
+                android:layout_height="35dp"
+
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="16dp"
+                android:text="Branches:"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText_description"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/editText_branches"
+                android:layout_width="224dp"
+                android:layout_height="@dimen/_50sdp"
+                android:hint="branches"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/border"
+                android:inputType="textMultiLine"
+                android:gravity="top"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingLeft="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText_description"
+                tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView_5"
+                android:layout_width="135dp"
+                android:layout_height="35dp"
+
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="24dp"
+                android:text="Phone Number:"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText_branches"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/editText_phone"
+                android:layout_width="224dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/border"
+                android:hint="Phone number"
+
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText_branches"
+                tools:ignore="MissingConstraints" />
+
+
+            <Button
+                android:id="@+id/save_place"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/border_btn"
+                android:backgroundTint="#081037"
+                android:text="Save"
+                android:textSize="@dimen/_20sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_5"
+                tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/cancel_place"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/border_btn"
+                android:backgroundTint="#081037"
+                android:text="cancel"
+                android:textSize="@dimen/_20sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/save_place"
+                tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_130sdp"
+        android:text="Pet Place Details"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

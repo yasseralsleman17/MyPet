@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/adoption"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Adoption"
+
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/im6"
+        android:title="Profile"
+
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/pet_places"
+        android:icon="@drawable/im9"
+        android:title="Pet Places"
+
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/blogs"
+        android:icon="@drawable/im10"
+        android:title="Blogs"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/direct_messages"
+        android:icon="@drawable/im7"
+        android:title="Direct Messages"
+
+        app:showAsAction="ifRoom" />
+
+
+
+</menu>

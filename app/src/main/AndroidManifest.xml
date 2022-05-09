@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mypet">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyPet"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".User.pet.ViewPetProfile"
+            android:exported="false" />
+        <activity
+            android:name=".User.Veterinary.VeterinaryMain"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Veterinary.EditVeterinary"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Veterinary.AddVeterinary"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.PetPlaces.EditPlace"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.PetPlaces.AddPlace"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.PetPlaces.ManagePetRestoresShop"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.PetPlaces.ManageFoodShop"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.PetPlaces.ManageAccessoriesShop"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Blog.EditBlog"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Blog.AddBlog"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Veterinary.ManageVeterinary"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.PetPlaces.ManagePetPlaces"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Blog.ManageBlogs"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Users.ManageUsers"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".User.Veterinary.VeterinaryFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".User.Veterinary.VeterinaryPictures"
+            android:exported="false" />
+        <activity
+            android:name=".User.Veterinary.VeterinaryDetails"
+            android:exported="false" />
+        <activity
+            android:name=".User.Shops.ShopDetails"
+            android:exported="false" />
+        <activity
+            android:name=".User.Shops.PetResortsShop"
+            android:exported="false" />
+        <activity
+            android:name=".User.Shops.FoodShop"
+            android:exported="false" />
+        <activity
+            android:name=".User.Shops.AccessoriesShop"
+            android:exported="false" />
+        <activity
+            android:name=".User.Blog.BlogDetails"
+            android:exported="false" />
+        <activity
+            android:name=".User.OwnerProfile"
+            android:exported="false" />
+        <activity
+            android:name=".User.pet.PetProfile"
+            android:exported="false" />
+        <activity
+            android:name=".User.ManagePetPlaceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".User.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".User.EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".User.pet.EditPet"
+            android:exported="false" />
+        <activity
+            android:name=".User.pet.AddPet"
+            android:exported="false" />
+        <activity
+            android:name=".User.UserHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SigninActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

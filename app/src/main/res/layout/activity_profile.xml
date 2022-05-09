@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".ProfileActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="279dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="64dp"
+        android:text="fill in your information"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_sex"
+        android:layout_width="135dp"
+        android:layout_height="35dp"
+
+        android:layout_marginStart="12dp"
+        android:text="sex:"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_marginTop="40dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView_phone"
+        android:layout_width="135dp"
+        android:layout_height="35dp"
+
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:text="Phone Number:"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_sex"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <EditText
+        android:id="@+id/editText_phone"
+        android:layout_width="224dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_phone"
+        app:layout_constraintTop_toBottomOf="@+id/editText_sex"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <EditText
+        android:id="@+id/editText_sex"
+        android:layout_width="224dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+
+        android:background="@drawable/border"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_sex"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_marginTop="40dp"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="161dp"
+        android:layout_height="40dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="110dp"
+        android:background="@drawable/border_btn"
+        android:backgroundTint="#d5defd"
+        android:text="cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_save2"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button_save2"
+        android:layout_width="161dp"
+        android:layout_height="40dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="108dp"
+        android:background="@drawable/border_btn"
+        android:backgroundTint="#d5defd"
+        android:text="save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_phone"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

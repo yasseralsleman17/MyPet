@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".User.ChatActivity">
+
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="178dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:layout_marginEnd="@dimen/_100sdp"
+
+        android:gravity="center"
+        android:text="user name"
+        android:textStyle="bold"
+        android:textSize="@dimen/_20sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_13sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/imageView_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_name">
+
+        <LinearLayout
+            android:id="@+id/chat"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView_img"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cam_b" />
+
+    <EditText
+        android:id="@+id/editTextText_msg"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_3sdp"
+
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/_12sdp"
+        android:hint="WRITE YOUR MESSAGE HERE"
+        android:background="@drawable/border"
+        android:paddingLeft="@dimen/_5sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView_send"
+        app:layout_constraintStart_toEndOf="@+id/imageView_img" />
+
+    <ImageView
+        android:id="@+id/imageView_send"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginStart="@dimen/_3sdp"
+        android:layout_marginEnd="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextText_msg"
+        app:srcCompat="@drawable/send" />
+</androidx.constraintlayout.widget.ConstraintLayout>

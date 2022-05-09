@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Yasser/Desktop/MyPet/app/src/main/res/drawable/border.xml" value="0.259" />
+        <entry key="..\:/Users/Yasser/Desktop/MyPet/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.259" />
+        <entry key="..\:/Users/Yasser/Desktop/MyPet/app/src/main/res/drawable/my_message.xml" value="0.259" />
+        <entry key="..\:/Users/Yasser/Desktop/MyPet/app/src/main/res/drawable/their_message.xml" value="0.259" />
+        <entry key="..\:/Users/Yasser/Desktop/MyPet/app/src/main/res/layout/activity_add_pet.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Yasser/Desktop/MyPet/app/src/main/res/layout/activity_chat.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Yasser/Desktop/MyPet/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Yasser/Desktop/MyPet/app/src/main/res/layout/activity_profile.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Yasser/Desktop/MyPet/app/src/main/res/layout/activity_user_home_page.xml" value="0.1" />
+        <entry key="..\:/Users/Yasser/Desktop/MyPet/app/src/main/res/layout/chat_list_item_card.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Yasser/Desktop/MyPet/app/src/main/res/layout/fragment_direct_messages.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Yasser/Desktop/MyPet/app/src/main/res/layout/fragment_pet_places.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Yasser/Desktop/MyPet/app/src/main/res/layout/fragment_profile.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Yasser/Desktop/MyPet/app/src/main/res/layout/receive_message_card.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Yasser/Desktop/MyPet/app/src/main/res/layout/send_message.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Yasser/Desktop/MyPet/app/src/main/res/layout/send_message_card.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Yasser/Desktop/MyPet/app/src/main/res/menu/user_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/drawable/border.xml" value="0.2115" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/drawable/border_btn.xml" value="0.1825" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/layout/activity_add_pet.xml" value="0.25" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/layout/activity_blog_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/layout/activity_chat.xml" value="0.25" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/layout/activity_edit_pet.xml" value="0.25" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/layout/activity_edit_profile.xml" value="0.22" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/layout/activity_manage_pet_place.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/layout/activity_signin.xml" value="0.18" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/layout/activity_signup.xml" value="0.18" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/layout/activity_user_home_page.xml" value="0.11503623188405797" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/layout/chat_list_item_card.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/layout/fragment_blocs.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/layout/fragment_direct_messages.xml" value="0.11503623188405797" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/layout/fragment_pet_places.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/layout/fragment_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/layout/fragment_veterinary.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/layout/receive_message_card.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/layout/send_message_card.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/MyPet/app/src/main/res/menu/user_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/game/MyPet/app/src/main/res/drawable/border.xml" value="0.219" />
+        <entry key="..\:/game/MyPet/app/src/main/res/drawable/desable_edittext.xml" value="0.219" />
+        <entry key="..\:/game/MyPet/app/src/main/res/drawable/enable_edittext.xml" value="0.219" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_accessories_shop.xml" value="0.2" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_add_blog.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_add_blog2.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_add_pet.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_add_place.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_add_veterinary.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_admin_home_page.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_blog_details.xml" value="0.176" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_chat.xml" value="0.17119565217391305" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_edit_blog.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_edit_pet.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_edit_place.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_edit_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_edit_veterinary.xml" value="0.2" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_food_shop.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_manage_accessories_shop.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_manage_blogs.xml" value="0.152" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_manage_food_shop.xml" value="0.15164473684210528" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_manage_pet_place.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_manage_pet_places.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_manage_pet_restores_shop.xml" value="0.15164473684210528" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_manage_users.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_manage_veterinary.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_owner_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_owner_profile2.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_pet_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_pet_resorts_shop.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_shop_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_signin.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_signup.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_user_home_page.xml" value="0.16799999999999998" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_veterinary_details.xml" value="0.144" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_veterinary_feedback.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_veterinary_main.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_veterinary_pictures.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/activity_view_pet_profile.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/admin_blog_list_card.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/blog_comment_card.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/blog_list_item_card.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/chat_list_item_card.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/feedback_rate_card.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/fragment_adoption.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/fragment_blocs.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/fragment_dashboard.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/fragment_direct_messages.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/fragment_notifications.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/fragment_pet_places.xml" value="0.2" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/fragment_profile.xml" value="0.176" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/fragment_veterinary.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/option.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/pet_card.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/receive_message_card.xml" value="0.16052631578947368" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/send_message_card.xml" value="0.17119565217391305" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/shop_item_list_card.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/layout/user_card.xml" value="0.2" />
+        <entry key="..\:/game/MyPet/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/menu/user_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/MyPet/app/src/main/res/xml/network_security_config.xml" value="0.11302083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

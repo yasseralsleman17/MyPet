@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+
+    tools:context=".User.pet.AddPet">
+
+
+    <TextView
+        android:id="@+id/textView_birth"
+        android:layout_width="135dp"
+        android:layout_height="35dp"
+
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text="Date of birth:"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_name"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="135dp"
+        android:layout_height="35dp"
+
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="NAME:"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_pic"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_Weight"
+        android:layout_width="135dp"
+        android:layout_height="35dp"
+
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text="WEIGHT:"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_sex"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_pic"
+        android:layout_width="135dp"
+        android:layout_height="35dp"
+
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="48dp"
+        android:text="PICTURE:"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="224dp"
+        android:layout_height="35dp"
+        android:hint="name"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/border"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editText_birth"
+        android:layout_width="224dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+
+        android:background="@drawable/border"
+        android:hint="DATE OF BIRTH"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@+id/editText_name"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="279dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="@dimen/_105sdp"
+        android:text="Add Pet"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_sex"
+        android:layout_width="135dp"
+        android:layout_height="35dp"
+
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:text="sex:"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_birth"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_MEDICATION"
+        android:layout_width="135dp"
+        android:layout_height="35dp"
+
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text="MEDICATION"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_DISEASES"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText_weight"
+        android:layout_width="224dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp"
+
+        android:background="@drawable/border"
+        android:hint="KG"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_sex"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView_DISEASES"
+        android:layout_width="135dp"
+        android:layout_height="35dp"
+
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:text="DISEASES:"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Weight"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText_sex"
+        android:layout_width="224dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+
+        android:background="@drawable/border"
+        android:hint="SEX"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_birth"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editText_diseases"
+        android:layout_width="224dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/border"
+        android:hint="NONE"
+        android:layout_marginEnd="16dp"
+
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_weight"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText_MEDICATION"
+        android:layout_width="224dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/border"
+        android:hint="NONE"
+        android:layout_marginEnd="16dp"
+
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_diseases"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="161dp"
+        android:layout_height="40dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="124dp"
+        android:background="@drawable/border_btn"
+        android:backgroundTint="#d5defd"
+        android:text="save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_MEDICATION"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="65dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/textView_pic"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+</androidx.constraintlayout.widget.ConstraintLayout>

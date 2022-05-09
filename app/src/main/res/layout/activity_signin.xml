@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".SigninActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="5dp"
+
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="229dp"
+        android:layout_marginEnd="61dp"
+        android:text="Sign in"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_password"
+        android:layout_width="115dp"
+        android:layout_height="35dp"
+
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:text="Password:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editText_password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_email"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText_email"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="30dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/border"
+
+        android:inputType="textEmailAddress"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_email"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView_email"
+        android:layout_width="115dp"
+        android:layout_height="35dp"
+
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="10dp"
+        android:text="Email:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editText_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/border"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_password"
+        app:layout_constraintTop_toBottomOf="@+id/editText_email"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="161dp"
+        android:layout_height="35dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/border_btn"
+        android:backgroundTint="#081037"
+        android:text="Sign In"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_password"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button_to_signup"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:backgroundTint="#E8C458"
+        android:text="DON'T HAVE AN ACCOUNT? Sign up"
+
+        android:textColor="#636161"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
